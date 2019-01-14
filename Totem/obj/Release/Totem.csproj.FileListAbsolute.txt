@@ -1,0 +1,17 @@
+C:\Users\mttge\source\repos\Totem\Totem\bin\Release\Totem.exe.config
+C:\Users\mttge\source\repos\Totem\Totem\bin\Release\Totem.exe
+C:\Users\mttge\source\repos\Totem\Totem\bin\Release\Totem.pdb
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\MainWindow.g.cs
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Settings.g.cs
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\App.g.cs
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem_MarkupCompile.cache
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem_MarkupCompile.lref
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\MainWindow.baml
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Settings.baml
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.g.resources
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.Properties.Resources.resources
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.csproj.GenerateResource.cache
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.csproj.CoreCompileInputs.cache
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.exe
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.pdb
+C:\Users\mttge\source\repos\Totem\Totem\obj\Release\Totem.csprojResolveAssemblyReference.cache

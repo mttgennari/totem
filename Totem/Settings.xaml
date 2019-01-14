@@ -1,0 +1,52 @@
+﻿<Window x:Class="Totem.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Totem"
+        mc:Ignorable="d"
+        Title="Settings" Height="509.325" Width="664.657" Closed="Window_Closed">
+    <Grid>
+        <StackPanel x:Name="btConfirm" HorizontalAlignment="Left" Height="543" Margin="10,10,0,0" VerticalAlignment="Top" Width="639">
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="Aula A" VerticalAlignment="Center" FontSize="18" Margin="0,33" Width="91"/>
+                <TextBox x:Name="wrA" TextWrapping="Wrap"  Width="447" VerticalAlignment="Center" FontSize="16" Margin="0,10" MinLines="3" Height="80"/>
+                <StackPanel Width="100" VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="aM" Content="-" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="aM_Click" />
+                    <TextBox x:Name="wrSizeA" FontSize="16" Margin="0" Width="36" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="aP" Content="+" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="aP_Click" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="Aula B" VerticalAlignment="Center" FontSize="18" Margin="0,33" Width="91"/>
+                <TextBox x:Name="wrB" TextWrapping="Wrap"  Width="447" VerticalAlignment="Center" FontSize="16" Margin="0,10" Height="80"/>
+                <StackPanel Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Button x:Name="bM" Content="-" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="bM_Click" />
+                    <TextBox x:Name="wrSizeB" FontSize="16" Margin="0" HorizontalContentAlignment="Center" Width="36"/>
+                    <Button x:Name="bP" Content="+" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="bP_Click" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="Aula C" VerticalAlignment="Center" FontSize="18" Margin="0,33" Width="91"/>
+                <TextBox x:Name="wrC" TextWrapping="Wrap"  Width="447" VerticalAlignment="Center" FontSize="16" Margin="0,10" Height="80"/>
+                <StackPanel Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Button x:Name="cM" Content="-" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="cM_Click" />
+                    <TextBox x:Name="wrSizeC" FontSize="16" Margin="0" HorizontalContentAlignment="Center" Width="36"/>
+                    <Button x:Name="cP" Content="+" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="cP_Click" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="Aula D" VerticalAlignment="Center" FontSize="18" Margin="0,33" Width="91"/>
+                <TextBox x:Name="wrD" TextWrapping="Wrap"  Width="447" VerticalAlignment="Center" FontSize="16" Margin="0,10" Height="80"/>
+                <StackPanel Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Button x:Name="dM" Content="-" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="dM_Click" />
+                    <TextBox x:Name="wrSizeD" FontSize="16" Margin="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="36"/>
+                    <Button x:Name="dP" Content="+" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0" Width="32" Height="27" Padding="0" VerticalContentAlignment="Top" Click="dP_Click" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="50" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="CONFERMA" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" FontSize="30" Click="BtConfirm_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
